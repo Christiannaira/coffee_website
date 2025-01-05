@@ -9,5 +9,8 @@
 }
 
 body {
+    height: 100vh;
     background: url("coffee.png");
+    background-position: center;
+    background-size: cover;
 }
