@@ -102,6 +102,18 @@ header .navbar {
     background: #C06B3E;
 }
 
+#menu-btn {
+    color: #fff;
+    cursor: pointer;
+}
+
+#close-menu-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
     .navbar .menu-links {
         position: fixed;
