@@ -45,6 +45,10 @@ header .navbar {
     gap: 40px;
 }
 
+.navbar .menu-links li {
+    list-style-type: none;
+}
+
 .navbar a {
     color: #fff;
     text-decoration: none;
@@ -96,4 +100,21 @@ header .navbar {
 .hero-section .content button:hover {
     color: #fff;
     background: #C06B3E;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar .menu-links {
+        position: fixed;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        width: 260px;
+        height: 100vh;
+        background: #fff;
+        padding: 70px 40px 0;
+    }
+
+    .navbar a {
+        color: #000;
+    }
 }
