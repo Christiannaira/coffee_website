@@ -132,9 +132,15 @@ header .navbar {
         height: 100vh;
         background: #fff;
         padding: 70px 40px 0;
+        transition: left 0.15s ease;
     }
 
     .navbar a {
         color: #000;
     }
+
+    header.show-mobile-menu .navbar .menu-links {
+        left: 0;
+    }
+
 }
